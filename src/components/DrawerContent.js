@@ -73,7 +73,7 @@ const DrawerContent = props => {
                 name={
                   theme === 'dark' ? 'moon-waning-crescent' : 'weather-sunny'
                 }
-                color={colors.accent}
+                color={colors.secondary}
                 size={24}
               />
               <View pointerEvents="none">
@@ -103,9 +103,46 @@ const DrawerContent = props => {
 
         <Drawer.Section title={'Contenido'}>
           <TouchableRipple
-            style={[styles.link, {borderColor: colors.text}]}
+            style={[styles.link, {borderColor: colors.primary}]}
             onPress={() => navigate('Inicio')}>
-            <Text>{'Inicio'}</Text>
+            <Text>{'Presentación'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Pensamientos')}>
+            <Text>{'Pensamientos'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Datos')}>
+            <Text>{'Datos'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Preambulo')}>
+            <Text>{'Preámbulo'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Introduccion')}>
+            <Text>{'A modo de Introducción'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('SistemaCuidados')}>
+            <Text>
+              {'Hacia un sistema de cuidados en adultos mayores dependientes'}
+            </Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('AsistenteSocial')}>
+            <Text>{'Del asistente social a domicilio'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('EvaluacionFuncional')}>
+            <Text>{'¿Qué hacer con la evaluación funcional?'}</Text>
           </TouchableRipple>
         </Drawer.Section>
       </Animated.View>
@@ -137,6 +174,9 @@ const styles = StyleSheet.create({
     margin: 2,
     paddingVertical: 6,
     paddingHorizontal: 16,
+    marginHorizontal: 20,
+    width: '80%',
+    marginBottom: 15,
   },
 });
 

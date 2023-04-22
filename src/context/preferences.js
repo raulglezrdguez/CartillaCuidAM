@@ -77,9 +77,18 @@ export const PreferencesProvider = ({children}) => {
     return it;
   };
 
+  const navigate = async c => {
+    try {
+      await AsyncStorage.setItem('@chapter', c);
+      dispatch({type: 'SET_CHAPTER', payload: c});
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
     <PreferencesDispatchContext.Provider value={dispatch}>
-      <PreferencesStateContext.Provider value={state}>
+      <PreferencesStateContext.Provider value={{...state, navigate}}>
         {children}
       </PreferencesStateContext.Provider>
     </PreferencesDispatchContext.Provider>
