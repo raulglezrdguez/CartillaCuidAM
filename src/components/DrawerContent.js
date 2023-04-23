@@ -144,6 +144,36 @@ const DrawerContent = props => {
             onPress={() => navigate('EvaluacionFuncional')}>
             <Text>{'¿Qué hacer con la evaluación funcional?'}</Text>
           </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('EnfermaDependiente')}>
+            <Text>{'Necesidades de la persona enferma dependiente'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('EstructuraCasa')}>
+            <Text>{'Cambios en la Estrutura de la Casa'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('CuidadosPersonales')}>
+            <Text>{'Cuidados Personales'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Sobrecarga')}>
+            <Text>{'Sobrecarga de la persona cuidadora'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('SaludMental')}>
+            <Text>{'Elementos de Salud Mental'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('AutonomiaPersonal')}>
+            <Text>{'Promoción de la autonomía personal'}</Text>
+          </TouchableRipple>
         </Drawer.Section>
       </Animated.View>
     </DrawerContentScrollView>

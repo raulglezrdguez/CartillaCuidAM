@@ -23,6 +23,12 @@ import Introduccion from './screens/Introduccion';
 import SistemaCuidados from './screens/SistemaCuidados';
 import AsistenteSocial from './screens/AsistenteSocial';
 import EvaluacionFuncional from './screens/EvaluacionFuncional';
+import EnfermaDependiente from './screens/EnfermaDependiente';
+import EstructuraCasa from './screens/EstructuraCasa';
+import CuidadosPersonales from './screens/CuidadosPersonales';
+import Sobrecarga from './screens/Sobrecarga';
+import SaludMental from './screens/SaludMental';
+import AutonomiaPersonal from './screens/AutonomiaPersonal';
 
 const Drawer = createDrawerNavigator();
 
@@ -88,7 +94,7 @@ export default function Main() {
           <Drawer.Screen
             name="SistemaCuidados"
             component={SistemaCuidados}
-            options={{title: 'Sistema de cuidados'}}
+            options={{title: 'Sistema de Cuidados'}}
           />
           <Drawer.Screen
             name="AsistenteSocial"
@@ -99,6 +105,36 @@ export default function Main() {
             name="EvaluacionFuncional"
             component={EvaluacionFuncional}
             options={{title: 'Evaluación Funcional'}}
+          />
+          <Drawer.Screen
+            name="EnfermaDependiente"
+            component={EnfermaDependiente}
+            options={{title: 'Enfermo Dependiente'}}
+          />
+          <Drawer.Screen
+            name="EstructuraCasa"
+            component={EstructuraCasa}
+            options={{title: 'Estructura de la Casa'}}
+          />
+          <Drawer.Screen
+            name="CuidadosPersonales"
+            component={CuidadosPersonales}
+            options={{title: 'Cuidados Personales'}}
+          />
+          <Drawer.Screen
+            name="Sobrecarga"
+            component={Sobrecarga}
+            options={{title: 'Sobrecarga Cuidador'}}
+          />
+          <Drawer.Screen
+            name="SaludMental"
+            component={SaludMental}
+            options={{title: 'Salud Mental'}}
+          />
+          <Drawer.Screen
+            name="AutonomiaPersonal"
+            component={AutonomiaPersonal}
+            options={{title: 'Autonomia Personal'}}
           />
         </Drawer.Navigator>
       </NavigationContainer>

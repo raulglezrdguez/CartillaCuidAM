@@ -94,7 +94,6 @@ const EvaluacionFuncional = () => {
             la Dirección municipal de Trabajo y Seguridad Social (DMTSS).
           </Text>
           <Text> </Text>
-
           <Text>
             ➢ <Text style={styles.bold}>DMTSS Colón</Text> Teléfono de la
             Recepción: 45 31 2518.
@@ -513,199 +512,285 @@ const EvaluacionFuncional = () => {
             servicio de ASD y se le otorgará si reúne los requisitos.
           </Text>
           <Text> </Text>
+          <Text style={styles.bold}>IX Memoria</Text>
           <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
+          <Text>5- Buena memoria. Niega trastornos de la misma.</Text>
           <Text>
-            ➢ Apoyo o mantenimiento de hábitos higiénicos y su capacidad
-            funcional.
-          </Text>
-          <Text>➢ Elaboración de alimentos.</Text>
-          <Text>➢ Mantenimiento de la higiene del hogar.</Text>
-          <Text>
-            ➢ Movilización y desplazamiento de la persona.Administración de
-            medicamentos orales, previa prescripción médica.
-          </Text>
-          <Text>➢ Acompañamiento dentro o fuera del domicilio.</Text>
-          <Text>
-            ➢ Realización de gestiones que el beneficiario no puede hacer por sí
-            mismo.
+            4- Refiere problemas de memoria, pro estos no limitan su vida
+            diaria.
           </Text>
           <Text>
-            ➢ Promueve acceso a los servicios sociales, visitas, consultas
-            médicas, entre otras.
+            3- Trastornos de memoria, que lo limitan para actividades de su vida
+            diaria.
           </Text>
-          <Text> </Text>
-          <Text style={styles.bold}>¿Cómo se clasifica el servicio?</Text>
-          <Text> </Text>
           <Text>
-            De acuerdo con el nivel de necesidad de los servicios, se establecen
-            dos categorías:
+            2- Trastornos de la memoria que lo obligan a ser dependientes una
+            parte del tiempo.
+          </Text>
+          <Text>
+            1- La pérdida de memoria lo mantiene incapacitado y dependiente
+            total.
           </Text>
           <Text> </Text>
           <Text>
-            <Text style={styles.italic}>Categoría I</Text>: Comprende a las
-            personas con un elevado nivel de dependencia funcional para la
-            realización de actividades normales y recurrentes de la vida
-            cotidiana, lo cual requiere asistencia constante y para todas las
-            actividades, que puede cubrir un período de no menos de 4 y hasta 8
-            horas de trabajo.
+            {' '}
+            - <Text style={styles.italic}>Desde puntaje de 4 al 1</Text> ➢
+            Evaluación por Médico y Enfermera de la Familia y remisión a la
+            Consulta de Memoria o a: Geriatra, Clínico, Psicólogo, Psiquiatra,
+            Neurólogo, Fisiatra, Endocrinólogo, Epidemiólogo de conjunto con
+            otros especialistas que sean necesarios.
           </Text>
           <Text> </Text>
           <Text>
-            <Text style={styles.italic}>Categoría II</Text>: Comprende a las
-            personas cuyo nivel de capacidad funcional le permite una
-            realización parcial de las actividades normales y recurrentes de la
-            vida cotidiana, por lo cual la asistencia requerida no necesita un
-            apoyo completo no constante para estas actividades, las cuales
-            podrían cubrirse en un período de no menos de 3 y hasta 4 horas de
-            trabajo.
+            {' '}
+            ➢ <Text style={styles.italic}>Puntaje del 4 al 2</Text>: Orientación
+            y tratamiento fundamentalmente por su médico de familia en el CMF y
+            Geriatra que trabajarán con soporte de un equipo multidisciplinario
+            e interdisciplinario, según corresponda. El tratamiento
+            farmacológico y por MNT, y otras alternativas se utilizarán
+            debidamente según las necesidades del adulto mayor. La
+            rehabilitación cognitiva (mejorar o mantener la memoria) será el
+            objetivo primario, sin dejar de atender otros síntomas que se puedan
+            manifestar. Dicha rehabilitación cognitiva se realizará en forma de
+            Talleres de Memoria (comunitarios o institucionales) o como
+            Rehabilitación cognitiva a través de computadora (con el software
+            GRADIOR de la Fundación INTRAS de España) en la casa de abuelos para
+            discapacidad cognitiva (CEGER) o en el área de salud que se decida.{' '}
           </Text>
           <Text> </Text>
           <Text>
-            El servicio de asistente social a domicilio está destinado
-            principalmente a los adultos mayores que viven solos y que no
-            cuentan con familiares obligados en condiciones de prestarles ayuda
-            y requieren del cuidado de otras personas para las actividades
-            cotidianas dentro y fuera del hogar, es solo una de las líneas de
-            atención que se definen por constituir el adulto mayor una figura
-            dentro de las prioridades de atención del trabajo social. Las
-            situaciones de vulnerabilidad que puedan presentar tienen un enfoque
-            multisectorial para su transformación en las evaluaciones de los
-            grupos de prevención a nivel de comunidades. Donde se analizan la
-            confluencia o no de las diferentes problemáticas:
-          </Text>
-          <Text> </Text>
-          <Text>➢ Dependientes.</Text>
-          <Text>➢ Viviendo solo.</Text>
-          <Text>➢ Necesidades básicas no cubiertas.</Text>
-          <Text>➢ Necesidad de atención especializada.</Text>
-          <Text>➢ Víctimas de maltrato.</Text>
-          <Text>➢ Desatendidos familiarmente.</Text>
-          <Text>➢ Conducta deambulantes.</Text>
-          <Text>➢ Alcohólicos.</Text>
-          <Text> </Text>
-          <Text style={styles.bold}>
-            El bienestar de la persona cuidadora depende de:
-          </Text>
-          <Text>• La salud de la persona cuidadora.</Text>
-          <Text>• La ayuda que recibe de otros familiares.</Text>
-          <Text>• La ayuda que recibe de otras instituciones.</Text>
-          <Text>
-            • Apoyo emocional, agradecimiento y reconocimiento de otros
-            familiares.
-          </Text>
-          <Text>
-            • La información que tiene sobre cómo cuidar y resolver problemas de
-            cuidado.
-          </Text>
-          <Text>
-            • Capacidad para actuar frente a comportamientos difíciles
-            (agitación, enfados, depresión, etc.).
-          </Text>
-          <Text>
-            • Su forma de enfrentarse a la situación de cuidado y superar
-            situaciones difíciles.
-          </Text>
-          <Text> </Text>
-          <Text style={styles.bold}>
-            Importancia de la comunicación en el cuidado del adulto mayor
+            {' '}
+            ➢ <Text style={styles.italic}>Puntaje 1</Text>: Se darán
+            orientaciones a la familia o a la persona cuidadora. Su seguimiento
+            se realizará según el grupo de dispensarización que corresponda y
+            podrá acudir al departamento de Trabajo Social de su policlínico si
+            necesitara obtener medicamentos exentos de pago por única vez o de
+            forma temporal. La persona cuidadora podrá solicitar su matrícula en
+            la Escuela de Cuidadores si lo necesitara o si va a optar por
+            aspirar a ser cuidador remunerado.
           </Text>
           <Text> </Text>
           <Text>
-            Existen una serie de factores que pueden entorpecer o limitar la
-            comunicación con una persona anciana, algunos de ellos son:
+            {' '}
+            ➢ Al Trabajador Social de la DMTSS se le solicitará alguna
+            prestación monetaria o algún otro recurso material que necesite y
+            servicio de ASD (persona cuidadora), la tramitación del servicio de
+            atención a la familia (SAF) y de mensajería de los principales
+            servicios de la comunidad. Las diferentes necesidades se evaluarán y
+            se le otorgará si reúne los requisitos.
           </Text>
           <Text> </Text>
-          <Text>
-            1. Los déficits en la audición y visión frecuentes en estas
-            personas.
-          </Text>
-          <Text>
-            2. La poca atención a los ancianos por la dedicación de la familia a
-            múltiples tareas cotidianas.
-          </Text>
-          <Text>3. La diferencia intergeneracional de gustos e intereses.</Text>
-          <Text>
-            4. La presencia de trastornos de conducta en el anciano como
-            agresividad, irritabilidad, etc. que provocan el alejamiento de los
-            familiares y la persona cuidadora.
-          </Text>
-          <Text>
-            5. La presencia de trastornos depresivos que provocan rechazo al
-            contacto con las personas o aislamiento.
-          </Text>
-          <Text>
-            6. Las dificultades que pueden tener los ancianos en la comprensión
-            o en la fluidez del lenguaje debido a alguna afección del Sistema
-            Nervioso.
-          </Text>
-          <Text>
-            7. La sensación del anciano de que se burlan de él o de que dice las
-            cosas mal provoca que no se comunique con los demás
-          </Text>
+          <Text style={styles.bold}>X Apoyo Familiar</Text>
           <Text> </Text>
           <Text>
-            Con una comunicación adecuada se puede lograr un mejor manejo de los
-            hábitos de vida del anciano y un cuidado con mayor calidad. Mantener
-            una comunicación adecuada significa llevar a cabo las siguientes
-            orientaciones:
-          </Text>
-          <Text> </Text>
-          <Text>1. Escuchar pacientemente al anciano.</Text>
-          <Text>
-            2. Utilizar palabras y gestos que le brinden seguridad y confianza.
+            5- Cuenta con todo el apoyo familiar que demandan sus necesidades.
           </Text>
           <Text>
-            3. Utilizar música suave y agradable con melodías favoritas del
+            4- Existe apoyo familiar, pero puede tener limitaciones en
+            ocasiones.
+          </Text>
+          <Text>
+            3- Apoyo familiar restringido a cuando el anciano tiene situación de
+            crisis.
+          </Text>
+          <Text>
+            2- Apoyo familiar inseguro incluso en momentos de crisis para el
             anciano.
           </Text>
+          <Text>1- Ausencia o abandono familiar total.</Text>
+          <Text> </Text>
+          <Text style={styles.bold}>XI Apoyo Social.</Text>
+          <Text> </Text>
           <Text>
-            4. Mostrar fotografías de familiares y amigos, así como revistas,
-            láminas atractivas que faciliten la expresión del anciano.
+            5- Apoyo total e irrestricto por parte de los vecinos y amigos.
           </Text>
           <Text>
-            5. Facilitar la relación del anciano con los niños y con animales
-            domésticos.
+            4- Cuenta con apoyo de vecinos y amigos, pero este es limitado.
           </Text>
           <Text>
-            6. Utilizar el lenguaje extraverbal: sonreír, contacto físico,
-            miradas, etc.
-          </Text>
-          <Text>7. No juzgar al anciano, no criticarlo.</Text>
-          <Text>8. Aceptar la respuesta NO del anciano.</Text>
-          <Text>9. Utilizar expresiones como: por favor, gracias.</Text>
-          <Text>10. Hablar con serenidad, sin herir.</Text>
-          <Text>
-            11. No apresurarlo o interrumpirlo antes de que haya terminado de
-            hablar respetando sus puntos de vista.
+            3- Apoyo de vecinos y amigos se restringe a momentos de crisis.
           </Text>
           <Text>
-            12. Conversar con él mientras se satisfacen sus necesidades.
+            2- Apoyo de vecinos y amigos inseguro aún en momentos de crisis.
+          </Text>
+          <Text>
+            1- Aislado. Ausencia total de apoyo por parte de vecinos y amigos.
+          </Text>
+          <Text> </Text>
+          <Text style={styles.bold}>XII Situación económica</Text>
+          <Text> </Text>
+          <Text>
+            5- Cubre todas sus necesidades económicas con ingresos propios.
+          </Text>
+          <Text>
+            4- Cubre todas sus necesidades, pero lo logra con ayuda de otros.
+          </Text>
+          <Text>
+            3- Cubre solo sus necesidades básicas, aún con la ayuda de otros.
+          </Text>
+          <Text>
+            2- Tiene dificultades para cubrir todas sus necesidades básicas.
+          </Text>
+          <Text>1- Depende económicamente de la asistencia social.</Text>
+          <Text> </Text>
+          <Text style={styles.italic}>
+            Acciones comunes para los casos X, XI y XII.
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            - <Text style={styles.italic}>Desde puntaje de 4 al 1</Text> ➢
+            Evaluación por Médico y Enfermera de la Familia y remisión a:
+            Trabajador Social, Geriatra, Psicólogo, Psiquiatra, de conjunto con
+            otros especialistas que sean necesarios.
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            ➢ Puntaje del 3 al 1 Orientación fundamentalmente por su médico de
+            familia en el CMF de conjunto con el Trabajador Social y el
+            Psicólogo, de su Grupo Básico de Trabajo del área de salud a la que
+            pertenece, sobre su posible incorporación a grupos sociales de la
+            comunidad (Ejemplos: Grupos de autoayuda, Círculos de Abuelos,
+            Grupos de Orientación y Recreación, incorporación a Proyectos de
+            Socialización liderados por adultos mayores y otras personas de la
+            comunidad con motivación por el tema del envejecimiento, Universidad
+            del Adulto Mayor y otros) u otros servicios como: Servicios de
+            Respiro o Incorporación a una institución social.
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            ➢ El médico de familia de su CMF le entregará resumen de historia
+            clínica y se remitirá al departamento de Trabajo Social de su
+            policlínico para su inscripción y apertura de expediente social y
+            poder solicitar servicios de instituciones sociales con régimen
+            seminterno (Casa de abuelos) o con régimen interno (Hogar de
+            ancianos); se orientará consulta de Geriatría para su evaluación
+            integral. Además, se necesita de la valoración por Psicología y por
+            Psiquiatría para determinar si está apto el adulto mayor apto para
+            vivir en colectividad en caso de solicitud de ingreso en hogar de
+            ancianos. La valoración por otros especialistas se realizará según
+            sea necesario.
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            ➢ El Trabajador Social de su área de salud, una vez inscrita la
+            persona adulta mayor que solicita por escrito servicio de alguna
+            institución social, conformará el expediente: para solicitar a la
+            Dirección Municipal de Salud la incorporación del adulto mayor a la
+            Casa de Abuelos o para solicitar a la Dirección Provincial de Salud
+            la incorporación al Hogar de Ancianos, según corresponda.
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            ➢ Al Trabajador Social de la DMTSS se le solicitará la tramitación
+            de prestación monetaria si necesitara ayuda el adulto mayor para
+            efectuar el pago del servicio por su incorporación a instituciones
+            sociales o algún otro recurso material que necesite y servicio de
+            ASD (persona cuidadora). Y se le otorgará si reúne los requisitos.
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            ➢ También se ofrecerán oportunidades de empleo para mejorar la
+            solvencia económica a los adultos mayores que lo soliciten y siempre
+            que exista la necesidad de recursos humanos y que le adulto mayor
+            pueda responder por la actividad laboral a realizar. Y se le
+            otorgará el o los recursos si cumple con los requisitos.
+          </Text>
+          <Text> </Text>
+          <Text>
+            <Text style={styles.bold}>Nota</Text>: Es válido conocer de forma
+            general que se priorizan a los adultos mayores solos (1 solo, 2
+            solos, 3 solos…. o aquel que convive con un menor o un discapacitado
+            o paciente psiquiátrico o un alcohólico), o que tenga edad de 80
+            años y más con algún tipo de alteración que atente contra su salud.
+          </Text>
+          <Text> </Text>
+          <Text>
+            <Text style={styles.bold}>Recordar</Text>: Que el envejecimiento es
+            un tema que necesita del accionar de todos los sectores de la
+            sociedad en alguna medida. Por lo tanto, la intersectorialidad en el
+            medio local ha mostrado aportar beneficios a las personas adultas
+            mayores.
+          </Text>
+          <Text> </Text>
+          <Text style={styles.bold}>Estado Funcional Global.</Text>
+          <Text> </Text>
+          <Text>
+            5- Es totalmente independiente y activo en su vida diaria.
+          </Text>
+          <Text>
+            4- Es independiente, pero necesita de ayuda no diaria para alguna
+            AIVD.
+          </Text>
+          <Text>
+            3- Tiene limitaciones que exigen ayuda diaria, pero puede pasar un
+            día solo.
+          </Text>
+          <Text>
+            2- Tiene limitaciones que impiden que permanezca más de 8 horas
+            sólo.
+          </Text>
+          <Text>
+            1- Está totalmente incapacitado y exige custodia permanente.{' '}
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            - <Text style={styles.italic}>Desde puntaje de 3 al 1</Text> ➢
+            Evaluación por Médico y Enfermera de la Familia y remisión al
+            Geriatra, Psicólogo, Psiquiatra, de conjunto con otros especialistas
+            que sean necesarios.
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            ➢ <Text style={styles.italic}>Puntaje 2 y 1</Text> El médico de
+            familia en el CMF le entregará certificado diagnóstico al adulto
+            mayor o a su representante de su estado funcional en relación al
+            nivel de dependencia para realizar las Actividades de la Vida Diaria
+            (AVD) (AVDB: Básicas y AVDI: Instrumentadas) como encamado o
+            postrado y si presenta deterioro cognitivo se evaluará según lo
+            descrito en el ítem lX. Y se remitirá al departamento de Trabajo
+            Social de su policlínico para su inscripción como persona postrada.
+            Además, podrá solicitar los servicios de Asistente Social a
+            Domicilio (ASD=Persona Cuidadora) y se confeccionará informe social
+            y se le orientará dirigir la solicitud al:
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            ➢ Al Trabajador Social de la DMTSS al que se le solicitará el
+            servicio de ASD (persona cuidadora), y se le comunicará si procede o
+            no en función de reunir los requisitos,
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            ➢ Se tramitará por el trabajador social de DMTSS los servicios (ASD
+            y SAF) y prestaciones (monetarias y en especies) que le correspondan
+            según la evaluación requerida.
+          </Text>
+          <Text> </Text>
+          <Text>
+            {' '}
+            ➢ La evaluación integral por los distintos factores del grupo de
+            prevención y atención social a nivel de consejo popular amplia las
+            ofertas de soluciones, dentro de las que destacan:
+          </Text>
+          <Text>
+            {' '}
+            • La incorporación a proyectos, grupos y otros con distintos fines
+            (deportivos, culturales, artesanales etc.)
+          </Text>
+          <Text>
+            {' '}
+            • La tramitación de otros servicios y prestaciones (subsidios para
+            la reparación de sus viviendas, asesoría legal y otras).
           </Text>
           <Text> </Text>
         </View>
@@ -715,8 +800,8 @@ const EvaluacionFuncional = () => {
 
         <TouchableRipple
           style={[styles.link, {borderColor: colors.primary}]}
-          onPress={() => navigate('EvaluacionFuncional')}>
-          <Text>{'¿Qué hacer con la evaluación funcional? 👉'}</Text>
+          onPress={() => navigate('EnfermaDependiente')}>
+          <Text>{'Necesidades de la persona enferma dependiente 👉'}</Text>
         </TouchableRipple>
         <Headline> </Headline>
         <Headline> </Headline>
