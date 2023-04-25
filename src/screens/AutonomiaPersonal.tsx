@@ -12,6 +12,17 @@ import {usePreferencesState} from '../context/preferences';
 import {styles} from '../context/styles';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import Fig1 from '../components/Fig1';
+import Fig2 from '../components/Fig2';
+import Fig3 from '../components/Fig3';
+import Fig4 from '../components/Fig4';
+import Fig5 from '../components/Fig5';
+import Fig6 from '../components/Fig6';
+import Fig7 from '../components/Fig7';
+import Fig8 from '../components/Fig8';
+import Fig9 from '../components/Fig9';
+import Fig10 from '../components/Fig10';
+import Fig11 from '../components/Fig11';
 
 const AutonomiaPersonal = () => {
   const {colors} = useTheme();
@@ -288,11 +299,177 @@ const AutonomiaPersonal = () => {
             general.
           </Text>
           <Text> </Text>
-          <Text> • </Text>
-          <Text> • </Text>
+          <Text style={styles.bold}>
+            Posiciones anatómicas básicas de una persona en la cama
+          </Text>
           <Text> </Text>
+          <Text>
+            Decúbito supino (o boca arriba): acostado sobre su espalda, piernas
+            extendidas y brazos alineados a lo largo del cuerpo.
+          </Text>
           <Text> </Text>
+          <Fig1
+            width={min}
+            height={(258 * min) / 1074}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
           <Text> </Text>
+          <Text>
+            Decúbito lateral izquierdo (o derecho): acostado sobre uno de los
+            lados del cuerpo. Los brazos pueden quedar hacia delante o hacia
+            arriba. El brazo del lado del apoyo del cuerpo no debe quedar
+            aprisionado.
+          </Text>
+          <Text> </Text>
+          <Fig2
+            width={min}
+            height={(298 * min) / 1160}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
+          <Text> </Text>
+          <Text>
+            Decúbito prono (o boca abajo): acostado sobre su abdomen y pecho con
+            la cabeza girada lateralmente, piernas extendidas y los brazos al
+            lado del cuerpo o extendidos hacia delante.
+          </Text>
+          <Text> </Text>
+          <Fig3
+            width={min}
+            height={(390 * min) / 1064}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
+          <Text> </Text>
+          <Text>
+            Utilice las siguientes ilustraciones para aprender a mover y
+            transferir, a las personas dependientes con alteraciones de la
+            movilidad, de la cama a la silla:
+          </Text>
+          <Text> </Text>
+          <Text>1. Coloque a la persona sobre uno de sus lados.</Text>
+          <Text> </Text>
+          <Fig4
+            width={min}
+            height={(560 * min) / 1094}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
+          <Text> </Text>
+          <Text>
+            2. Movilice a la persona hasta el borde de la cama. Pida que
+            flexione las piernas y que se apoye en el codo del lado sobre la
+            superficie de la cama. Usted ayudará con un giro sobre la cadera
+            apoyada, sujetándolo por detrás de las rodillas o muslos con una
+            mano y por encima del hombro del codo apoyado, con la otra mano.
+          </Text>
+          <Text> </Text>
+          <Fig5
+            width={min}
+            height={(504 * min) / 1028}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
+          <Text> </Text>
+          <Text>
+            3. Mientras lo sujeta con una mano por un hombro del lado sin apoyo,
+            colocará una mano en la región de la cadera para ayudarle a levantar
+            los glúteos y sentarlo en el borde de la cama hasta que logre
+            colocar los pies en el piso.
+          </Text>
+          <Text> </Text>
+          <Fig6
+            width={min}
+            height={(640 * min) / 714}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
+          <Text> </Text>
+          <Text>
+            4. Ubíquese frente a la persona y sosténgalo con posición de abrazo
+            por debajo de sus axilas mientras ella realiza la misma acción
+            alrededor de su cuello. Trate de que la misma mantenga los pies
+            sobre el piso. Y usted podrá colocar una de sus piernas entre las
+            rodillas de la persona que cuida.
+          </Text>
+          <Text> </Text>
+          <Fig7
+            width={min}
+            height={(636 * min) / 754}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
+          <Text> </Text>
+          <Text>
+            5. Ayude a la persona a levantar los glúteos y cámbiela hacia la
+            silla fija o silla de ruedas u otro. Los brazos se mantendrán
+            colocados en la posición de abrazo y su pierna entre las rodillas de
+            la persona que cuida.
+          </Text>
+          <Text> </Text>
+          <Text>
+            6. El traslado de la persona de la cama a la silla debe realizarse
+            de forma coordinada con los brazos.
+          </Text>
+          <Text> </Text>
+          <Text>
+            Una sábana doblada en dos colocada a lo ancho de la cama ayuda a
+            mover a la persona dependiente cuando su estado es muy débil.
+          </Text>
+          <Text> </Text>
+          <Fig8
+            width={min}
+            height={(838 * min) / 958}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
+          <Text> </Text>
+          <Text>
+            La persona cuidadora agarrará la sábana por uno de sus extremos que
+            sobresale por uno de los lados de la cama. Tirará de la sábana para
+            acercar hacia ella a la persona dependiente acostada. Le flexionará
+            la pierna contraria al lado del cuerpo que quedará apoyado en la
+            cama. Le colocará los brazos sobre el pecho. Y levantará la sábana
+            para que gentilmente la persona necesitada de sus cuidados esté
+            acostada de lado. Luego le pondrá una almohada o una frazada
+            enrollada a lo largo de la región de la columna vertebral (en su
+            espalda). No debe olvidar ponerle una almohada también debajo de la
+            rodilla flexionada.
+          </Text>
+          <Text> </Text>
+          <Text>
+            Las siguientes figuras muestran cómo posicionar a la persona, que
+            necesitada de cuidados en la cama. El uso de almohadas y frazadas
+            dobladas, ayudan a proporcionar soporte a la espalda y a las
+            extremidades, le aportan comodidad, previenen los puntos de apoyo
+            (unido a los cambios posturales a intervalos de 4 horas -pues
+            diferentes estudios demuestran que ese tiempo es efectivo para
+            prevenir las úlceras por presión y no crear complicaciones a la
+            persona con estado crítico de salud- al realizarlos con menor
+            intervalo de tiempo) (Monzón Ferrer, A. 2020).
+          </Text>
+          <Text> </Text>
+          <Fig9
+            width={min}
+            height={(368 * min) / 1050}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
+          <Text> </Text>
+          <Fig10
+            width={min}
+            height={(414 * min) / 1184}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
+          <Text> </Text>
+          <Fig11
+            width={min}
+            height={(404 * min) / 1216}
+            stroke={colors.secondary}
+            strokeWidth={2}
+          />
 
           <Text> </Text>
         </View>
@@ -302,8 +479,8 @@ const AutonomiaPersonal = () => {
 
         <TouchableRipple
           style={[styles.link, {borderColor: colors.primary}]}
-          onPress={() => navigate('AutonomiaPersonal')}>
-          <Text>{'Promoción de la autonomía personal 👉'}</Text>
+          onPress={() => navigate('CuidadoresAutoayuda')}>
+          <Text>{'Recomendaciones para los cuidadores y la autoayuda 👉'}</Text>
         </TouchableRipple>
         <Headline> </Headline>
         <Headline> </Headline>

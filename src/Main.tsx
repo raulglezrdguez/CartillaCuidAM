@@ -29,6 +29,7 @@ import CuidadosPersonales from './screens/CuidadosPersonales';
 import Sobrecarga from './screens/Sobrecarga';
 import SaludMental from './screens/SaludMental';
 import AutonomiaPersonal from './screens/AutonomiaPersonal';
+import CuidadoresAutoayuda from './screens/CuidadoresAutoayuda';
 
 const Drawer = createDrawerNavigator();
 
@@ -135,6 +136,11 @@ export default function Main() {
             name="AutonomiaPersonal"
             component={AutonomiaPersonal}
             options={{title: 'Autonomia Personal'}}
+          />
+          <Drawer.Screen
+            name="CuidadoresAutoayuda"
+            component={CuidadoresAutoayuda}
+            options={{title: 'Cuidadores y Autoayuda'}}
           />
         </Drawer.Navigator>
       </NavigationContainer>

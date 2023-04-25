@@ -174,6 +174,11 @@ const DrawerContent = props => {
             onPress={() => navigate('AutonomiaPersonal')}>
             <Text>{'Promoción de la autonomía personal'}</Text>
           </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('CuidadoresAutoayuda')}>
+            <Text>{'Recomendaciones para los cuidadores y la autoayuda'}</Text>
+          </TouchableRipple>
         </Drawer.Section>
       </Animated.View>
     </DrawerContentScrollView>
