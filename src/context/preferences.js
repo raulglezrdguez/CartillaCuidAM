@@ -36,6 +36,12 @@ const preferencesReducer = (state, action) => {
         scroll: action.payload,
       };
 
+    case 'SET_BACKPAGE':
+      return {
+        ...state,
+        backPage: action.payload,
+      };
+
     default:
       return state;
   }
@@ -46,6 +52,7 @@ export const PreferencesProvider = ({children}) => {
     theme: 'light',
     chapter: 'Inicio',
     scroll: '0',
+    backPage: '',
   };
   const [state, dispatch] = useReducer(preferencesReducer, initialState);
 
@@ -57,10 +64,12 @@ export const PreferencesProvider = ({children}) => {
     const theme = await getItem('@theme');
     const chapter = await getItem('@chapter');
     const scroll = await getItem('@scroll');
+    const backPage = await getItem('@backPage');
 
     dispatch({type: 'SET_THEME', payload: theme || 'light'});
     dispatch({type: 'SET_CHAPTER', payload: chapter || 'Inicio'});
     dispatch({type: 'SET_SCROLL', payload: scroll || '0'});
+    dispatch({type: 'SET_BACKPAGE', payload: backPage || ''});
   }, []);
 
   const getItem = async item => {
@@ -79,6 +88,20 @@ export const PreferencesProvider = ({children}) => {
 
   const navigate = async c => {
     try {
+      const lastChapter = await AsyncStorage.getItem('@chapter');
+      let backPage = await AsyncStorage.getItem('@backPage');
+      if (backPage) {
+        const backPages = backPage.split(',');
+        if (backPages.length > 5) {
+          backPage = backPages.slice(1).join(',') + ',' + lastChapter;
+        } else {
+          backPage += ',' + lastChapter;
+        }
+      } else {
+        backPage = lastChapter;
+      }
+      await AsyncStorage.setItem('@backPage', backPage);
+      dispatch({type: 'SET_BACKPAGE', payload: backPage});
       await AsyncStorage.setItem('@chapter', c);
       dispatch({type: 'SET_CHAPTER', payload: c});
     } catch (e) {
@@ -86,9 +109,29 @@ export const PreferencesProvider = ({children}) => {
     }
   };
 
+  const navigateBack = async () => {
+    try {
+      let backPage = await AsyncStorage.getItem('@backPage');
+      if (backPage) {
+        const backPages = backPage.split(',');
+        if (backPages.length > 0) {
+          const newChapter = backPages[backPages.length - 1];
+          backPage = backPages.slice(0, backPages.length - 1).join(',');
+          await AsyncStorage.setItem('@backPage', backPage);
+          dispatch({type: 'SET_BACKPAGE', payload: backPage});
+          await AsyncStorage.setItem('@chapter', newChapter);
+          dispatch({type: 'SET_CHAPTER', payload: newChapter});
+        }
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
     <PreferencesDispatchContext.Provider value={dispatch}>
-      <PreferencesStateContext.Provider value={{...state, navigate}}>
+      <PreferencesStateContext.Provider
+        value={{...state, navigate, navigateBack}}>
         {children}
       </PreferencesStateContext.Provider>
     </PreferencesDispatchContext.Provider>

@@ -60,7 +60,7 @@ const AsistenteSocial = () => {
         <Headline> </Headline>
         <TouchableRipple
           style={[styles.link, {borderColor: colors.primary}]}
-          onPress={() => navigate('SistemaCuidado')}>
+          onPress={() => navigate('SistemaCuidados')}>
           <Text>
             {'👈 Hacia un sistema de cuidados en adultos mayores dependientes'}
           </Text>

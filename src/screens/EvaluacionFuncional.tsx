@@ -112,7 +112,12 @@ const EvaluacionFuncional = () => {
           </Text>
           <Text> </Text>
           <Text style={styles.bold}>
-            Escala Geriátrica de Evaluación Funcional (EGEF) (Anexos 4 y 4a)
+            Escala Geriátrica de Evaluación Funcional (EGEF){' '}
+            <TouchableRipple
+              style={[styles.link, {borderColor: colors.primary}]}
+              onPress={() => navigate('Anexo4')}>
+              <Text>{'Anexos 4 y 4a 👉'}</Text>
+            </TouchableRipple>
             Creada por el CITED
           </Text>
           <Text> </Text>

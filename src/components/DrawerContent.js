@@ -29,7 +29,7 @@ const DrawerContent = props => {
   const [errors] = useState({});
 
   const {colors} = useTheme();
-  const {theme, chapter} = usePreferencesState();
+  const {theme, chapter, navigate} = usePreferencesState();
   const dispatch = usePreferencesDispatch();
 
   useEffect(() => {
@@ -41,16 +41,6 @@ const DrawerContent = props => {
   const storagePreferences = async () => {
     try {
       await AsyncStorage.setItem('@theme', theme);
-    } catch (e) {
-      console.log(e);
-    }
-  };
-
-  const navigate = async c => {
-    try {
-      await AsyncStorage.setItem('@chapter', c);
-      dispatch({type: 'SET_CHAPTER', payload: c});
-      // navigation.navigate(c);
     } catch (e) {
       console.log(e);
     }
@@ -178,6 +168,46 @@ const DrawerContent = props => {
             style={[styles.link, {borderColor: colors.primary}]}
             onPress={() => navigate('CuidadoresAutoayuda')}>
             <Text>{'Recomendaciones para los cuidadores y la autoayuda'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Tecnologias')}>
+            <Text>{'Apoyo de tecnologías'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Bibliografia')}>
+            <Text>{'Bibliografía'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Anexo1')}>
+            <Text>{'Anexo 1'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Anexo2')}>
+            <Text>{'Anexo 2'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Anexo3')}>
+            <Text>{'Anexo 3'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Anexo4')}>
+            <Text>{'Anexo 4'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Anexo5')}>
+            <Text>{'Anexo 5'}</Text>
+          </TouchableRipple>
+          <TouchableRipple
+            style={[styles.link, {borderColor: colors.primary}]}
+            onPress={() => navigate('Ultima')}>
+            <Text>{'Última página'}</Text>
           </TouchableRipple>
         </Drawer.Section>
       </Animated.View>

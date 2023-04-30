@@ -30,6 +30,14 @@ import Sobrecarga from './screens/Sobrecarga';
 import SaludMental from './screens/SaludMental';
 import AutonomiaPersonal from './screens/AutonomiaPersonal';
 import CuidadoresAutoayuda from './screens/CuidadoresAutoayuda';
+import Tecnologias from './screens/Tecnologias';
+import Bibliografia from './screens/Bibliografia';
+import Anexo1 from './screens/Anexo1';
+import Anexo2 from './screens/Anexo2';
+import Anexo3 from './screens/Anexo3';
+import Anexo4 from './screens/Anexo4';
+import Anexo5 from './screens/Anexo5';
+import Ultima from './screens/Ultima';
 
 const Drawer = createDrawerNavigator();
 
@@ -40,9 +48,10 @@ const customDrawerContent = (props: DrawerContentComponentProps) => {
 const screenOptions = (props: {
   route: RouteProp<ParamListBase, string>;
   navigation: any;
+  navigateBack: any;
+  backPage: any;
 }): DrawerNavigationOptions => {
-  const {navigation} = props;
-
+  const {navigation, navigateBack, backPage} = props;
   return {
     headerLeft: ({}) => (
       <IconButton
@@ -53,11 +62,23 @@ const screenOptions = (props: {
         }}
       />
     ),
+    headerRight: ({}) => (
+      <IconButton
+        icon="notebook-minus"
+        disabled={
+          backPage === null || backPage === undefined || backPage === ''
+        }
+        size={20}
+        onPress={() => {
+          navigateBack();
+        }}
+      />
+    ),
   };
 };
 
 export default function Main() {
-  const {theme} = usePreferencesState();
+  const {theme, navigateBack, backPage} = usePreferencesState();
   const userTheme = theme === 'dark' ? themeDark : themeLight;
 
   return (
@@ -66,7 +87,9 @@ export default function Main() {
         <Drawer.Navigator
           initialRouteName="Inicio"
           drawerContent={customDrawerContent}
-          screenOptions={screenOptions}>
+          screenOptions={({route, navigation}) =>
+            screenOptions({route, navigation, navigateBack, backPage})
+          }>
           <Drawer.Screen
             name="Inicio"
             component={RootScreen}
@@ -141,6 +164,46 @@ export default function Main() {
             name="CuidadoresAutoayuda"
             component={CuidadoresAutoayuda}
             options={{title: 'Cuidadores y Autoayuda'}}
+          />
+          <Drawer.Screen
+            name="Tecnologias"
+            component={Tecnologias}
+            options={{title: 'Tecnologías'}}
+          />
+          <Drawer.Screen
+            name="Bibliografia"
+            component={Bibliografia}
+            options={{title: 'Bibliografía'}}
+          />
+          <Drawer.Screen
+            name="Anexo1"
+            component={Anexo1}
+            options={{title: 'Anexo 1'}}
+          />
+          <Drawer.Screen
+            name="Anexo2"
+            component={Anexo2}
+            options={{title: 'Anexo 2'}}
+          />
+          <Drawer.Screen
+            name="Anexo3"
+            component={Anexo3}
+            options={{title: 'Anexo 3'}}
+          />
+          <Drawer.Screen
+            name="Anexo4"
+            component={Anexo4}
+            options={{title: 'Anexo 4'}}
+          />
+          <Drawer.Screen
+            name="Anexo5"
+            component={Anexo5}
+            options={{title: 'Anexo 5'}}
+          />
+          <Drawer.Screen
+            name="Ultima"
+            component={Ultima}
+            options={{title: 'Última página'}}
           />
         </Drawer.Navigator>
       </NavigationContainer>

@@ -31,6 +31,13 @@ export const styles = StyleSheet.create({
     alignContent: 'center',
     flexWrap: 'wrap',
   },
+  col: {
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignContent: 'center',
+    flexWrap: 'wrap',
+  },
   row_start: {
     flexDirection: 'row',
     justifyContent: 'flex-start',
@@ -40,5 +47,25 @@ export const styles = StyleSheet.create({
   },
   text: {
     justifyContent: 'flex-start',
+    width: '100%',
+  },
+  tr: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignContent: 'center',
+    borderRadius: 3,
+    borderWidth: 1,
+    paddingVertical: 2,
+    paddingHorizontal: 4,
+    textAlign: 'left',
+    textAlignVertical: 'center',
+  },
+  td: {
+    borderLeftWidth: 1,
+    paddingVertical: 2,
+    paddingHorizontal: 4,
+    // height: '100%',
+    textAlign: 'left',
+    textAlignVertical: 'center',
   },
 });

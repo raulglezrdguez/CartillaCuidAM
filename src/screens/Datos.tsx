@@ -207,6 +207,23 @@ const Datos = () => {
             sello editorial de Joven Club.
           </Text>
           <Text> </Text>
+          <Subheading style={styles.bold}>
+            Equipo de desarrollo para dispositivos móviles Android.
+          </Subheading>
+          <Text>
+            • Raúl González Rodríguez. Ingeniero Físico Nuclear. Master en
+            informática aplicada.
+          </Text>
+          <Text>
+            • Eduardo Alfredo Triana Alvarez MSc. Licenciado en psicología.
+            Master en nuevas tecnologías para la educación y longevidad
+            satisfactoria.
+          </Text>
+          <Text>
+            • Teresa Reyes Camejo. Médico especialista en Medicina General
+            Integral. Master en nuevas tecnologías para la educación y
+            longevidad satisfactoria.
+          </Text>
         </View>
 
         <Headline> </Headline>

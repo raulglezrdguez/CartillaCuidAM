@@ -312,12 +312,29 @@ const SistemaCuidados = () => {
             las actividades de la vida diaria. En general, estas se han medido a
             través la identificación de problemas para realizar actividades de
             la vida diaria básicas (AVDB) como comer, vestirse y bañarse, entre
-            otras (Anexo 1 y 2) y de actividades de la vida diaria
-            instrumentales (AVDI), que se realizan en el hogar y la comunidad
-            (Anexo 3) (American Occupational Therapy Association, 2020). Estas
-            últimas incluyen una mayor cantidad de tareas subyacentes y
-            requieren de un funcionamiento cognitivo y físico más complejo
-            (American Occupational Therapy Association, 2020).
+            otras
+            <TouchableRipple
+              style={[styles.link, {borderColor: colors.primary}]}
+              onPress={() => navigate('Anexo1')}>
+              <Text>{'Anexo 1 👉'}</Text>
+            </TouchableRipple>{' '}
+            y{' '}
+            <TouchableRipple
+              style={[styles.link, {borderColor: colors.primary}]}
+              onPress={() => navigate('Anexo2')}>
+              <Text>{'Anexo 2 👉'}</Text>
+            </TouchableRipple>
+            {'   '}y de actividades de la vida diaria instrumentales (AVDI), que
+            se realizan en el hogar y la comunidad{' '}
+            <TouchableRipple
+              style={[styles.link, {borderColor: colors.primary}]}
+              onPress={() => navigate('Anexo3')}>
+              <Text>{'Anexo 3 👉'}</Text>
+            </TouchableRipple>{' '}
+            (American Occupational Therapy Association, 2020). Estas últimas
+            incluyen una mayor cantidad de tareas subyacentes y requieren de un
+            funcionamiento cognitivo y físico más complejo (American
+            Occupational Therapy Association, 2020).
           </Text>
           <Text> </Text>
           <Text>
@@ -339,7 +356,12 @@ const SistemaCuidados = () => {
             de oro en la valoración de las AVDI, a pesar de sus críticas por
             tener sesgos de género, cultura y nivel socioeconómico (Hernández K,
             Neumann V, 2016) (González-González C, Cafagna G, Hernández Ruiz
-            MDC, Ibarrarán P, Stampini M, 2021). (Anexo 3)
+            MDC, Ibarrarán P, Stampini M, 2021).{' '}
+            <TouchableRipple
+              style={[styles.link, {borderColor: colors.primary}]}
+              onPress={() => navigate('Anexo3')}>
+              <Text>{'Anexo 3 👉'}</Text>
+            </TouchableRipple>
           </Text>
           <Text> </Text>
           <Text>
