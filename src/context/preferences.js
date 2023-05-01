@@ -100,7 +100,7 @@ export const PreferencesProvider = ({children}) => {
       } else {
         backPage = lastChapter;
       }
-      await AsyncStorage.setItem('@backPage', backPage);
+      await AsyncStorage.setItem('@backPage', backPage || '');
       dispatch({type: 'SET_BACKPAGE', payload: backPage});
       await AsyncStorage.setItem('@chapter', c);
       dispatch({type: 'SET_CHAPTER', payload: c});

@@ -14,6 +14,9 @@ buildscript {
         google {
     url 'https://maven.aliyun.com/repository/google'
 }
+jcenter {
+    url 'https://nexus.xebialabs.com/nexus/content/groups/public/'
+}
 mavenCentral {
     url 'https://maven.aliyun.com/repository/central'
 }
