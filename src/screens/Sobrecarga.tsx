@@ -85,7 +85,7 @@ const Sobrecarga = () => {
             necesidad, es muy importante.
           </Text>
           <Text> </Text>
-          <Text style={styles.italic}>Qué es la sobrecarga.</Text>
+          <Text style={styles.italic}>¿Qué es la sobrecarga?</Text>
           <Text> </Text>
           <Text>
             Según varios estudios el ejercer la función de cuidador por largo
@@ -105,7 +105,7 @@ const Sobrecarga = () => {
           </Text>
           <Text> </Text>
           <Text style={styles.italic}>
-            Cómo saber si existe sobrecarga en la persona cuidadora.
+            ¿Cómo saber si existe sobrecarga en la persona cuidadora?
           </Text>
           <Text> </Text>
           <Text>

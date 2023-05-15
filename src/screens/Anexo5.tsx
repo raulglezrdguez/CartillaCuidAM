@@ -83,7 +83,7 @@ const Anexo5 = () => {
           ]}>
           <Text style={{width: '10%'}}>Item</Text>
           <Text style={{width: '70%'}}>Pregunta a realizar</Text>
-          <Text style={{width: '20%'}}>N CN AV CS S</Text>
+          <Text style={{width: '20%', flexWrap: 'nowrap'}}>N CN AV CS S</Text>
         </View>
         <View
           style={[

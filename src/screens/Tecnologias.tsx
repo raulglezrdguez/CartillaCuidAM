@@ -276,6 +276,14 @@ const Tecnologias = () => {
           </Text>
           <Text> </Text>
           <Text>
+            ✓ Todas, la edad no condiciona el empleo de las tecnologías, sino
+            los elementos arriba la capacidad de acceso, las competencias y la
+            motivación, las pruebas de usabilidad contribuyen a que los
+            productos sean más amigables y el respeto a la dignidad y derechos
+            del adulto mayor hace que se respete su decisión de usarlos o no
+            como ocurre en cualquier edad.
+          </Text>
+          <Text>
             ✓ Mensajería instantánea: A través de las diferentes aplicaciones
             pueden sentirse más cerca de sus amigos y familiares. Mediante ellas
             consiguen enviar mensajes escritos, fotos y videos de momentos

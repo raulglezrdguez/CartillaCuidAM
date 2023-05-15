@@ -130,8 +130,8 @@ const Datos = () => {
             y Beatrice Mazenauer.
           </Text>
           <Text>
-            • A COSUDE mediCuba Suiza por el financiamiento en el proyecto de
-            colaboración internacional FORTAM.
+            • A COSUDE por el financiamiento en el proyecto de colaboración
+            internacional FORTAM.
           </Text>
           <Text>
             • A la Asociación de Amistad Italia-Cuba por el apoyo con donativo
@@ -211,18 +211,18 @@ const Datos = () => {
             Equipo de desarrollo para dispositivos móviles Android.
           </Subheading>
           <Text>
-            • Raúl González Rodríguez. Ingeniero Físico Nuclear. Master en
-            informática aplicada.
+            • Raúl González Rodríguez. Ingeniero Físico Nuclear. Máster en
+            Informática aplicada.
           </Text>
           <Text>
-            • Eduardo Alfredo Triana Alvarez MSc. Licenciado en psicología.
-            Master en nuevas tecnologías para la educación y longevidad
+            • Eduardo Alfredo Triana Alvarez MSc. Licenciado en Psicología.
+            Máster en Nuevas tecnologías para la educación y Longevidad
             satisfactoria.
           </Text>
           <Text>
             • Teresa Reyes Camejo. Médico especialista en Medicina General
-            Integral. Master en nuevas tecnologías para la educación y
-            longevidad satisfactoria.
+            Integral. Máster en Contaminación Ambiental y Longevidad
+            satisfactoria.
           </Text>
         </View>
 

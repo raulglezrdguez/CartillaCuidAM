@@ -61,7 +61,7 @@ const SistemaCuidados = () => {
         <TouchableRipple
           style={[styles.link, {borderColor: colors.primary}]}
           onPress={() => navigate('Introduccion')}>
-          <Text>{'👈 Introduccion'}</Text>
+          <Text>{'👈 Introducción'}</Text>
         </TouchableRipple>
 
         <Headline> </Headline>
@@ -391,10 +391,10 @@ const SistemaCuidados = () => {
             No es la ausencia de enfermedades, el Envejecimiento Saludable es el{' '}
             <Text style={styles.italic}>proceso de fomentar y mantener</Text> la{' '}
             <Text style={styles.bold}>capacidad funcional</Text> que permite el
-            <Text style={styles.bold}>bienestar</Text> en la vejez. La capacidad
-            funcional consiste en tener los atributos que permiten a todas las
-            personas ser y hacer lo que para ellas es importante. Por eso es tan
-            importante.
+            <Text style={styles.bold}> bienestar</Text> en la vejez. La
+            capacidad funcional consiste en tener los atributos que permiten a
+            todas las personas ser y hacer lo que para ellas es importante. Por
+            eso es tan importante.
           </Text>
           <Text> </Text>
           <Text>
