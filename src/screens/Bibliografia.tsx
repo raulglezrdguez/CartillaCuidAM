@@ -560,7 +560,7 @@ const Bibliografia = () => {
           </Text>
           <Text>
             {' '}
-            • Vilches Leiva, C., Aracena Ávila, J. ., & Canales Canales , C. .
+            • Vilches Leiva, C., Aracena Ávila, J., & Canales Canales , C.
             (2021). Estrategias de prevención en cuidadores de pacientes con
             dependencia: Revisión exploratoria. Revista Confluencia,4(1),71-77.
             https://revistas.udd.cl/index.php/confluencia/article/view/604{' '}

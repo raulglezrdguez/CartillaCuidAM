@@ -338,23 +338,20 @@ const Sobrecarga = () => {
           <Text> </Text>
           <Text>
             {' '}
-            • Aprender a pedir ayuda.... cuidar a una persona, en la mayoría de
+            • Aprender a pedir ayuda... cuidar a una persona, en la mayoría de
             los casos, no es una tarea ligera. Conlleva cansancio físico y una
             importante carga emocional.
           </Text>
+          <Text> • Saca tiempo para ti... hacer cosas que ofrecen placer.</Text>
+          <Text> • Práctica ejercicio... físico y mental.</Text>
           <Text>
             {' '}
-            • Saca tiempo para ti.... hacer cosas que ofrecen placer.
-          </Text>
-          <Text> • Práctica ejercicio.... físico y mental.</Text>
-          <Text>
-            {' '}
-            • Cuida tu vida social.... un tiempecito para amigos y familia.
+            • Cuida tu vida social... un tiempecito para amigos y familia.
           </Text>
           <Text> • Descansa y come bien. Cuidar el sueño y la nutrición.</Text>
           <Text>
             {' '}
-            • Conocer la enfermedad ayuda a controlar mejor la situación....
+            • Conocer la enfermedad ayuda a controlar mejor la situación...
           </Text>
           <Text> • Reconocer y expresar los sentimientos.</Text>
           <Text>

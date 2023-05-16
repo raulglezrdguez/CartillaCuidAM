@@ -409,11 +409,12 @@ const Anexo5 = () => {
         <Text> </Text>
         <Text>
           <Text style={styles.bold}>Escala de Zarit</Text> (Todos los ítems):
-          Cada respuesta obtiene una puntuación de 1 a 5 de izquierda a derecha
-          1 Nunca 2 Casi nunca 3 A veces 4 Casi siempre 5 Siempre. . Luego se
-          suma el puntaje obteniendo un resultado entre 22 y 110 puntos. Este
-          resultado clasifica al cuidador en: “ausencia de sobrecarga” (≤46),
-          “sobrecarga ligera” (47-55) y “sobrecarga intensa” (≥56).
+          Cada respuesta obtiene una puntuación de 1 a 5 de izquierda a derecha:
+          1 ➢ Nunca, 2 ➢ Casi nunca, 3 ➢ A veces, 4 ➢ Casi siempre y 5 ➢
+          Siempre. Luego se suma el puntaje obteniendo un resultado entre 22 y
+          110 puntos. Este resultado clasifica al cuidador en: “ausencia de
+          sobrecarga” (≤46), “sobrecarga ligera” (47-55) y “sobrecarga intensa”
+          (≥56).
         </Text>
         <Text> </Text>
         <Headline> </Headline>
