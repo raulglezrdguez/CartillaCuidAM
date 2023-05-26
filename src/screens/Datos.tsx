@@ -5,6 +5,7 @@ import {
   useWindowDimensions,
   NativeSyntheticEvent,
   NativeScrollEvent,
+  Image,
 } from 'react-native';
 import {
   Headline,
@@ -224,9 +225,23 @@ const Datos = () => {
             Integral. Máster en Contaminación Ambiental y Longevidad
             satisfactoria.
           </Text>
+
+          <Text> </Text>
+          <Subheading>
+            <Text style={styles.bold}>Cartilla de la persona cuidadora. </Text>
+            <Text>Asistentes sociales a domicilio y familiares.</Text>
+          </Subheading>
+          <Text>Fecha de asignación: 2023-05-26.</Text>
+          <Text>ISBN Obra independiente: 978-959-289-126-5.</Text>
+          <Text>Sello editorial: Editorial Joven Club (978-959-289).</Text>
+          <Image
+            source={require('../../assets/978-959-289-126-5.jpg')}
+            resizeMode="contain"
+            style={{width: min / 2, height: min / 2}}
+          />
+          <Text> </Text>
         </View>
 
-        <Headline> </Headline>
         <Headline> </Headline>
 
         <TouchableRipple
